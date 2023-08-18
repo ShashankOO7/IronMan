@@ -1,0 +1,136 @@
+header{
+	font-family: Sans-Serif;
+	color: white;
+	background: gray;
+	padding: 1px;
+}
+h3 {
+	font-family: Century Gothic;
+	font-size: 16px;
+}
+body{
+	max-width: 1000px;
+	margin: auto;
+	font-family: Quicksand;
+	font-size: 18px;
+}
+h4{
+	font: italic bolder 28px Quicksand, sans-serif;
+}
+div{
+	margin-top: 5px;
+	padding: 20px;
+}
+.left{
+	float: left;
+	margin-top: 0px;
+	padding: none;
+}
+.right{
+	float: right;
+	margin-top: 0px;
+	padding: none;
+}
+#background-image{
+	background-image: url("https://picfiles.alphacoders.com/167/167264.jpg");
+	/* background-image: url("./Images/IronMan.jpg"); */
+	height: 250px;
+	width: 950px;
+	padding-top: 300px;
+	color: #fff;
+	margin-top: 20px;
+}
+#content{
+	background-color: rgba(0, 0, 0, 0.7);
+	max-width: 800px;
+	padding: 5px 5px;
+	margin-top: -300px;
+}
+#Villains{
+	margin-top: 200px;
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 15px;
+	border: 1px solid #a4a4a4;
+	height: 30px;
+}
+th{
+	text-align: left;
+	background-color: #ececec;
+}
+#Movies{
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+nav{
+	margin: 0px;
+	padding: 0px;
+}
+li a {
+	display: block;
+	color: #666;
+	padding: 0px 16px;
+	text-decoration: none;
+	float: right;
+}
+.logo{
+	float: left;
+}
+#header{
+	padding: 25px 0px;
+	border-bottom: 1px solid;
+}
+.container {
+	padding: 20px;
+	margin: auto;
+	width: 100%;
+	overflow-x: hidden;
+}
+.logo{
+	width: 80px;
+	height: 50px;
+}
+img{
+	width: 250px;
+	height: 400px;
+}
+.IM:hover{
+	transition: 2s;
+	background-color: blue;
+	color: white;
+}
+header:hover{
+	background-color: red;
+	color: gold;
+}
+a:hover{
+	color: gold;
+}
+
+@media (min-width: 320px) { .container { width: 320px; } }
+@media (min-width: 481px) { .container { width: 481px; } }
+@media (min-width: 641px) { .container { width: 641px; } }
+@media (min-width: 961px) { .container { width: 961px; } }
+@media (min-width: 1000px) { .container { width: 1000px; } }
+
+@media (max-width: 481px) {
+	.box {
+		width: 100%;
+	}
+	#image{
+		width: 100%;
+	}
+	h2{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
